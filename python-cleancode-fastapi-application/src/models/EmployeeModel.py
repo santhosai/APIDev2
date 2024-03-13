@@ -2,7 +2,7 @@ from sqlalchemy import Column, ForeignKey, Integer, String, Float
 from sqlalchemy.orm import relationship
  
 from src.configs.db import Base
-   
+#from src.configs.db import Base  
 class Employee(Base):
     __tablename__ = "Employees"
     __table_args__ = {"schema": "dbo"}
